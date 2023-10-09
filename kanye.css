@@ -1,0 +1,43 @@
+.Next{
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: rgba(31, 161, 170, 0.753);
+    color: white;
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+.Quotes{
+    font-family: monospace;
+    background-color: rgba(31, 161, 170, 0.753);
+    color: white;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 30px 1px #191b1b3f;
+}
+
+.header{
+    padding: 25px;
+    text-align: center;
+    color: rgb(5, 5, 5);
+}
+
+.container{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
